@@ -10,7 +10,7 @@ This project is broken down into three main Jupyter Notebooks, representing a co
  1. Data Collection (`01_Data_Collection.ipynb`)
 - Automates the extraction of historical F1 race data using the `fastf1` API.
 - Pulls crucial telemetry and session data: Grid Position, Finish Position, Team, and Track.
-- Dynamically maps constructors to their engine suppliers (e.g., Haas -> Ferrari, Sauber -> Audi).
+- Dynamically maps constructors to their engine suppliers (e.g., Haas -> Ferrari).
 - Cleans and formats the data into a standardized CSV for training.
 
  2. Model Training (`02_Model_Training.ipynb`)
